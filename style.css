@@ -54,7 +54,7 @@ p {
   font-size: 0.875rem;
 }
 
-.flow > * + * {
+.flow>*+* {
   margin-top: 1rem;
 }
 
@@ -68,7 +68,6 @@ p {
   padding: 1.5rem;
   text-align: center;
 }
-
 
 .profile {
   text-align: center;
@@ -86,6 +85,7 @@ p {
 .location {
   color: var(--crl-green);
   font-weight: 600;
+  margin: 0.5rem 0 1.5rem 0;
 }
 
 .bio {
@@ -101,18 +101,14 @@ p {
 
 .social-link {
   background-color: var(--crl-grey-300);
+  color: var(--crl-white);
+  text-decoration: none;
   border: 0;
   border-radius: 0.5rem;
   padding: 0.75rem;
-  cursor: pointer;
-  width: 100%;
-}
-
-.social-link a {
-  color: var(--crl-white);
+  font-weight: 700;
   font-size: 0.875rem;
-  font-weight: 600;
-  text-decoration: none;
+  cursor: pointer;
   display: block;
   width: 100%;
 }
@@ -120,10 +116,6 @@ p {
 .social-link:hover,
 .social-link:focus-visible {
   background-color: var(--crl-green);
-}
-
-.social-link:hover a,
-.social-link:focus-visible a {
   color: var(--crl-grey-700);
 }
 
