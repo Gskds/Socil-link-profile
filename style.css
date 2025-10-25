@@ -70,8 +70,12 @@ p {
 }
 
 .profile {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   max-width: 100%;
+}
+
+.profile div {
+  margin-top: 1.5rem;
 }
 
 .profile-picture {
