@@ -54,7 +54,7 @@ p {
   font-size: 0.875rem;
 }
 
-.flow>*+* {
+.flow > * + * {
   margin-top: 1rem;
 }
 
@@ -72,10 +72,6 @@ p {
 .profile {
   margin-top: 0.5rem;
   max-width: 100%;
-}
-
-.profile div {
-  margin-top: 1.5rem;
 }
 
 .profile-picture {
