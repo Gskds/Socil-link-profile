@@ -29,6 +29,7 @@ body {
   min-height: 100vh;
 }
 
+/* Typography */
 @font-face {
   font-family: "Inter";
   src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype-variations");
@@ -47,31 +48,26 @@ body {
 h1 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
 }
 
 p {
   font-size: 0.875rem;
 }
 
-.flow > * + * {
-  margin-top: 1rem;
+.bio {
+  color: var(--crl-white);
+  font-weight: 400;
 }
 
+/* Card */
 .card {
   background-color: var(--crl-grey-400);
   border-radius: 0.75rem;
   display: grid;
   gap: 1.5rem;
   width: 20rem;
-  margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
-}
-
-.profile {
-  margin-top: 0.5rem;
-  max-width: 100%;
 }
 
 .profile-picture {
@@ -79,6 +75,7 @@ p {
   width: 5.5rem;
   height: 5.5rem;
   margin: 0 auto;
+  margin-bottom: 1.5rem;
   object-fit: cover;
 }
 
@@ -88,11 +85,6 @@ p {
   margin: 0.5rem 0 1.5rem 0;
 }
 
-.bio {
-  color: var(--crl-white);
-  font-weight: 400;
-  margin-bottom: 0;
-}
 
 .social-links {
   display: grid;
